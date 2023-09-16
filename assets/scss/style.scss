@@ -1,3 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&family=Source+Sans+3:wght@200;300;400&display=swap');
+
+@import "./variaveis.scss";
+
+//componentes
+@import "./header.scss";
+@import "./nav-produtos.scss";
+@import "./banners-promocionais.scss";
+@import "./produtos.scss";
+@import "./produtos-compra.scss";
+@import "./footer.scss";
+@import "./responsive.scss";
+
 // Fremework
 @import './cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.scss';
+
+@import "./breadcrumb.scss";
+
+//config 
+@import "./config.scss";

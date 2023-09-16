@@ -1,0 +1,23 @@
+footer {
+  background: $cor-secundaria;
+  padding: 25px 0;
+  color: $branco;
+
+  h4 {
+    font-size: 16px;
+    color: $cor-primaria;
+  }
+
+  a {
+    color: $branco;
+  }
+
+  ul {
+    li.ellipsis {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
